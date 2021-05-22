@@ -1,0 +1,38 @@
+hero:
+  name: 亚索
+  age: 25
+  birthday: 1996/8/5
+#  elf: {name: 栗子球,skill: 栗子增殖}
+  elf:
+    name: 栗子球
+    skill: 栗子增殖
+#  skills: [斩钢闪,突刺,风墙,旋风绝息斩]
+  skills:
+    - 斩钢闪
+    - 突刺
+    - 风墙
+    - 旋风绝息斩
+#  friends: {Man: Jie,Woman: Riven}
+  friends:
+    Man: Jie
+    Woman: Riven
+#  girlFriends: {Ionia: [{name: Ali,age: 18},{name: Akali,age: 19}],Noxus: [{name: Riven,age: 17},{name: Sherry,age: 18}]}
+  girlFriends:
+    Ionia:
+      - name: Ali
+        age: 18
+      - name: Akali
+        age: 19
+    Noxus:
+      - name: Riven
+        age: 17
+      - name: Sherry
+        age: 18
+
+
+spring:
+#  mvc:
+#    static-path-pattern: /**
+  web:
+    resources:
+      add-mappings: true
