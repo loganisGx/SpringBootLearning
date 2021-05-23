@@ -30,6 +30,7 @@ public class MonsterController {
 
     @RequestMapping("/getEquipment")
     public Equipment getEquipment(){
+        log.info(equipment.toString());
         return equipment;
     }
 

@@ -36,3 +36,7 @@ spring:
   web:
     resources:
       add-mappings: true
+
+
+  main:
+    sources: classpath:spring.xml

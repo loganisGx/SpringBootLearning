@@ -4,6 +4,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 /**
  * Desc：Equipment
  * Created by mskj-liugenxing on 2021/5/12 10:29.
@@ -14,6 +16,7 @@ import org.springframework.stereotype.Component;
 public class Equipment {
     private String name;
     private String power;
+    private List<String> elements;
 
     public String getName() {
         return name;
@@ -31,11 +34,20 @@ public class Equipment {
         this.power = power;
     }
 
+    public List<String> getElements() {
+        return elements;
+    }
+
+    public void setElements(List<String> elements) {
+        this.elements = elements;
+    }
+
     @Override
     public String toString() {
         return "Equipment{" +
                 "name='" + name + '\'' +
                 ", power='" + power + '\'' +
+                ", elements=" + elements +
                 '}';
     }
 }
