@@ -4,8 +4,8 @@ import org.springframework.context.ApplicationEvent;
 
 /**
  * Desc：MessageEvent
- * Created by mskj-liugenxing on 2021/4/9 14:23.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/4/9 14:23.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 public class MessageEvent extends ApplicationEvent {
     /**

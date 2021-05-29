@@ -5,8 +5,8 @@ import lombok.ToString;
 
 /**
  * Desc：Girl
- * Created by mskj-liugenxing on 2021/5/13 12:48.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/5/13 12:48.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 @Data
 @ToString

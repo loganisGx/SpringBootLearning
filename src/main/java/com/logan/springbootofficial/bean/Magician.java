@@ -4,8 +4,8 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  * Desc：Magician
- * Created by mskj-liugenxing on 2021/5/12 9:06.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/5/12 9:06.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 public class Magician extends Monster{
     private String magic;

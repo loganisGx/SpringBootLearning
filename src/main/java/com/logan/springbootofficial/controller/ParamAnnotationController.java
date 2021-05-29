@@ -1,5 +1,6 @@
 package com.logan.springbootofficial.controller;
 
+import com.logan.springbootofficial.dto.Car;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpHeaders;
 import org.springframework.util.MultiValueMap;
@@ -11,8 +12,8 @@ import java.util.Map;
 
 /**
  * Desc：ParamAnnotationController
- * Created by mskj-liugenxing on 2021/5/19 12:13.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/5/19 12:13.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 @RestController
 @Slf4j
@@ -21,7 +22,7 @@ public class ParamAnnotationController {
     /**
      * Desc: @PathVariable 接收路径变量
      * 表达式{a} 中的a是变量
-     * Created by mskj-liugenxing on 2021/5/19 12:50
+     * Created by Logan-liugenxing on 2021/5/19 12:50
      * @param branch
      * @param id
      * @param paramMap
@@ -43,7 +44,7 @@ public class ParamAnnotationController {
 
     /**
      * Desc: @RequestHeader 接收请求头
-     * Created by mskj-liugenxing on 2021/5/19 12:51
+     * Created by Logan-liugenxing on 2021/5/19 12:51
      * @param userAgent
      * @param headers
      * @param httpHeaders
@@ -66,7 +67,7 @@ public class ParamAnnotationController {
     /**
      * Desc: @RequestParam 接收请求参数
      * MultiValueMap的实例是LinkedMultiValueMap
-     * Created by mskj-liugenxing on 2021/5/19 12:49
+     * Created by Logan-liugenxing on 2021/5/19 12:49
      * @param age
      * @param cars
      * @param params 实例是LinkedMultiValueMap
@@ -97,5 +98,12 @@ public class ParamAnnotationController {
         result.put("form",form);
         System.out.println(result);
         return result;
+    }
+
+    @ResponseBody
+    @PostMapping("/buyCar")
+    public Car buyCar(Car car){
+        log.info(car.toString());
+        return car;
     }
 }

@@ -5,8 +5,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * Desc：MessageObservable
- * Created by mskj-liugenxing on 2021/4/8 17:07.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/4/8 17:07.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 public class MessageObservable extends Observable {
     private String message;

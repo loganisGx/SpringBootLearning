@@ -6,8 +6,8 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * Desc：MemberObserver
- * Created by mskj-liugenxing on 2021/4/8 17:20.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/4/8 17:20.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 public class MemberObserver implements Observer {
 

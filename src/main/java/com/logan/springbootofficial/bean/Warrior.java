@@ -7,8 +7,8 @@ import lombok.ToString;
 
 /**
  * Desc：Warrior
- * Created by mskj-liugenxing on 2021/5/12 9:08.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/5/12 9:08.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 @ToString
 @Data

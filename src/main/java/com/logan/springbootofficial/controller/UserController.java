@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * Desc：UserController
- * Created by mskj-liugenxing on 2021/3/14 10:51.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/3/14 10:51.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 @Slf4j
 @RestController

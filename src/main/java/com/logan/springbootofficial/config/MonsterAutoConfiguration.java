@@ -17,8 +17,8 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * Desc：MonsterAutoConfiguration
- * Created by mskj-liugenxing on 2021/5/12 9:18.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/5/12 9:18.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 @Configuration(proxyBeanMethods = false)
 //@EnableConfigurationProperties(Equipment.class)

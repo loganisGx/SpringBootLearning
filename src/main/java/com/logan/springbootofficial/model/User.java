@@ -2,8 +2,8 @@ package com.logan.springbootofficial.model;
 
 /**
  * Desc：User
- * Created by mskj-liugenxing on 2021/3/15 14:28.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/3/15 14:28.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 public class User {
     private String name;

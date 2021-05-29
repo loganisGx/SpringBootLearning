@@ -12,8 +12,8 @@ import java.util.Map;
 
 /**
  * Desc：HeroController
- * Created by mskj-liugenxing on 2021/5/13 14:48.
- * Copr：© 2021 MSKJ.All rights reserved.
+ * Created by Logan-liugenxing on 2021/5/13 14:48.
+ * Copr：© 2021 Logan.All rights reserved.
  */
 @RestController
 public class HeroController {
