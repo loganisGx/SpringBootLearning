@@ -40,3 +40,7 @@ spring:
 
   main:
     sources: classpath:spring.xml
+
+  mvc:
+    contentnegotiation:
+      favor-parameter: true
